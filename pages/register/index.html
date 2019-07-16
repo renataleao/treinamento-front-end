@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <script text="text/javascript" src="service.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <ul id="menu">
+            <li id="entrar"><a href="index.html">ENTRAR</a></li>
+            <li><a href="index.html">JOGOS</a></li>
+            <li><a href="index.html">CONTATO</a></li>
+            <li><a href="index.html">LOJA</a></li>
+        </ul>
+    </nav>
+
+    <form name="myForm" action="pagloja.html" onsubmit="return validateForm()" method="post">
+        Nome:<br>
+        <input type="text" name="Nome" required><br>
+        Email:<br>
+        <input type="text" name="Email" required><br>
+        CPF:<br>
+        <input type="number" name="Cpf" required><br>
+        Senha:<br>
+        <input type="password" name="formSenha" placeholder="Min. 5 characters" required><br>
+        Digite novamente sua senha:<br>
+        <input type="password" name="formRepeteSenha" placeholder="Min. 5 characters" required><br>
+        <input type="submit"  name="submit" value="Criar sua conta"><br>
+    </form>
+
+<div id="jackConvida">
+    <p id="frase1">JACK TE CONVIDA</p>
+    <p id="frase2">PARA CONHECER O SITE</p>
+    <p id="frase3">DE BASQUETE DA UNIFACISA</p>
+</div>
+
+    <img id="logoBasquete" src="image/basqueteLOGO.png" alt="">
+
+    <img id="jackAlerta" src="image/jackAlerta.svg" alt="">
+
+    
+
+
+
+
+
+
+
+</body>
+
+</html>
